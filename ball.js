@@ -40,7 +40,7 @@ function Ball() {
 		if( this.y + this.r > height ) {
 			if(this.squish < 1.3) {
 				if( this.squishing == false ) {
-					//this.color = [random(255), random(255), random(255)];
+					this.color = [random(255), random(255), random(255)];
 				}
 				this.squish += 0.08;
 				this.yvelocity = 0;
